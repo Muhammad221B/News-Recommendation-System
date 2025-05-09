@@ -14,16 +14,24 @@ subcategories—ideal for content-based modeling.
 ## Requirements 
 Functional Requirements: 
 ● Load and preprocess the MIND dataset. 
+
 ● Extract meaningful features from article content (e.g., title, abstract) using TF-IDF. 
+
 ● Construct a user profile vector based on selected categories, keywords, or preferred 
 articles. 
 ● Compute cosine similarity between the user profile and news articles. 
+
 ● Recommend top-N most similar articles to the user. 
+
 Libraries: 
 ● pandas, numpy 
+
 ● scikit-learn (for TF-IDF and similarity computation) 
+
 ● NLTK or spaCy (for text preprocessing, optional) 
+
 ● matplotlib / seaborn (for optional visualizations) 
+
 
 ### Dataset: Microsoft News Dataset (MIND): 
 https://www.kaggle.com/datasets/arashnic/mind-news-dataset/data 
